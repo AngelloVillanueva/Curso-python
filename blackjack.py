@@ -1,3 +1,7 @@
+# Este programa de black jack fue escrito para utilizarse en un desafio
+# hecho por HackerRank.com, por lo que solo funciona bajo las condiciones 
+# que Hacker Rank necesitaba.
+
 def run():
     a = []
     while True:
