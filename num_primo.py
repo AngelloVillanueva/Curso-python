@@ -1,15 +1,21 @@
 def es_primo(a):
+
     numbers = [i for i in range(1,a+1) if a % (i) == 0]
     print(numbers)
     if len(numbers) == 2:
-        print("Es primo")
+        # print("Es primo")
         return True
+    else:
+        return False
 
 
 def es_antiprimo(a):
     numbers = [i for i in range(1,a+1) if a % (i) == 0]
     if len(numbers) != 2:
+        # print("No es primo")
         return True
+    else:
+        return False
 
 
 def divisores_comun(a,b):
@@ -27,7 +33,7 @@ def divisores_comun(a,b):
 
 if __name__ == '__main__':
     a = int(input(''))
-    b = int(input(''))
-    es_primo(a)
+    # b = int(input(''))
+    # es_primo(a)
     es_antiprimo(a)
-    divisores_comun(a, b)
+    # divisores_comun(a, b)
